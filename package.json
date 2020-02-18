@@ -1,0 +1,12 @@
+{
+  "name": "techstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kannkyo/techstack.git",
+  "author": "kannkyo <15080890+kannkyo@users.noreply.github.com>",
+  "license": "ISC",
+  "dependencies": {
+    "d3": "4.7.4",
+    "d3-svg-legend": "^2.25.6"
+  }
+}
