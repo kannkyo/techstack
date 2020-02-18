@@ -165,8 +165,6 @@ let data = [{
         icon: 'img/chrome-devtools.svg',
         desc: `
             <strong>Web development tools (devtool)</strong> allow web developers to test and debug their code.
-            At Nau, we use the one come with Google Chrome to debug our apps. It is one the the most powerful
-            and sophisticated devtool available.
         `
     }, {
         cat: 'tooling',
@@ -201,25 +199,12 @@ let data = [{
         `
     }, {
         cat: 'tooling',
-        name: 'Performance Tooling',
-        value: 30,
-        icon: 'Performance;Tooling',
-        desc: `
-            At Nau, web performance is our top priority when development web sites and applications.
-            We're practicing code optimization and Front End delivery optimization from day 1.
-            To measure the resuslts, we use several tools to audit and benchmark our applications,
-            including (but not limit to): Chrome devtool timeline & audit, Google PageSpeed Insights, Web Page Test, Website Grader...
-        `
-    }, {
-        cat: 'tooling',
-        name: 'Yeoman generator for Nau Workflow',
+        name: 'Yeoman generator',
         value: 20,
         icon: 'img/yeoman.png',
         desc: `
             Yeoman is an open source, command-line interface set of tools mainly used to generate
             structure and scaffolding for new projects, especially in JavaScript and Node.js.
-            At Nau, we have developed a Yeoman generator that help quickly set up new projects aligned with
-            Nau's conventions and standards.
         `
     }, {
         cat: 'tooling',
@@ -310,7 +295,6 @@ let data = [{
         icon: 'img/docker.svg',
         desc: `
             Docker is an open-source project that automates the deployment of applications inside software containers.
-            At Nau, we're still learning this technology to later facilitate easy web app deployments.
         `
     }, {
         cat: 'platform',
@@ -345,23 +329,12 @@ let data = [{
             mobile UI from declarative components.
         `
     }, {
-        cat: 'platform',
-        name: 'SquareSpace',
-        value: 30,
-        icon: 'img/squarespace.svg',
-        desc: `
-            Squarespace is a SaaS-based content management system-integrated ecommerce-aware website builder and blogging platform.
-            At Nau, we have built a website for Squarespace using their low-level API which allowed fully customization
-            of the interface and other Front End functionalities.
-        `
-    }, {
         cat: 'language',
         name: 'HTML5 & CSS3',
         value: 100,
         icon: 'img/html5-css3.png',
         desc: `
-            The languages of the Web Front End. At Nau, they are in our blood and with them we can build
-            world-class websites with any kind of visual effects or designs requested.
+            The languages of the Web Front End.
         `
     }, {
         cat: 'language',
@@ -370,8 +343,7 @@ let data = [{
         icon: 'img/javascript.png',
         desc: `
             JavaScript is the heart of modern Web front end development and essential element of any Single Page
-            Applications. In Nau, we invest a good deal in training developers to have good control of this universal language
-            and now caplable of developing full stack websites with only JavaScript.
+            Applications.
         `
     }, {
         cat: 'language',
@@ -419,15 +391,6 @@ let data = [{
             The strict-typing flavor of ECMAScript, always requires a compiler to compile to vanilla JavaScript
             but the type checking and other syntactical sugar are exceptional. Right now, we only use it for
             Angular 2 projects when needed.
-        `
-    }, {
-        cat: 'workflow',
-        name: 'code.naustud.io',
-        value: 100,
-        icon: 'img/naustudio.svg',
-        desc: `
-            A set of guidelines, presets, configs and stadard documentation for Nau developers.
-            Please visit the document site at: <a href='http://code.naustud.io' target='_blank'>code.naustud.io</a>
         `
     }, {
         cat: 'workflow',
@@ -484,7 +447,7 @@ let data = [{
         icon: 'img/gitflow.png',
         desc: `
             Our code version control tool is Git, and Gitflow is one of its workflow standard which
-            ensure good collaboration and avoid conflict-resolving efforts. For more info, visit: code.naustud.io
+            ensure good collaboration and avoid conflict-resolving efforts.
         `
     }, {
         cat: 'workflow',
@@ -494,15 +457,6 @@ let data = [{
         desc: `
             GulpJS is a task automation tools written for Node.js. It is among the most popular
             Front End and Node project automation tools nowadays
-        `
-    }, {
-        cat: 'workflow',
-        name: 'Nau Code Styles',
-        value: 50,
-        icon: 'Nau Code Styles',
-        desc: `
-            Based on AirBnB's well-defined JavaScript code styles. Our derivation has some different standards such as
-            TAB indentation. This code style has an accompanied ESLint config.
         `
     }, {
         cat: 'workflow',
@@ -567,6 +521,37 @@ let data = [{
         icon: 'img/requirejs.svg',
         desc: `
             AMD module loader. Deprecated and replaced by ES module and Webpack.
+        `
+    }, {
+        cat: 'platform',
+        name: 'virtualbox',
+        value: 30,
+        icon: 'img/virtualbox.png',
+        desc: `
+            Oracle VM VirtualBox とは、 x86ならびにAMD64 / Intel64にかかる仮想化ソフトウェア・ パッケージの一つ。 現在の開発は米国オラクルが行っている。(wikipediaより)
+        `
+    }, {
+        cat: 'platform',
+        name: 'vagrant',
+        value: 30,
+        icon: 'img/vagrant.png',
+        desc: `
+            Vagrantは、 FLOSSの仮想機械を構築するためのソフトウェアである。 構成情報を記述した設定ファイルを元に、 仮想環境の構築から設定までを自動的に行うことができる。(wikipediaより)
+        `
+    }, {
+        cat: 'platform',
+        name: 'Red Hat Enterprise Linux',
+        value: 30,
+        icon: 'img/redhat.png',
+        desc: `
+            Red Hat Enterprise Linux、 略してRHELとは、 レッドハット社によって開発、 販売されている業務向けのLinuxディストリビューション。 (wikipediaより)
+        `
+    }, {
+        cat: 'platform',
+        name: 'ubuntu',
+        value: 30,
+        icon: 'img/ubuntu.svg',
+        desc: `
         `
     }
 ];
